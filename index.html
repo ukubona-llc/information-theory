@@ -1050,6 +1050,146 @@ h1 em {
   </div>
 </div>
 
+<!--
+  ╔══════════════════════════════════════════════════════════════╗
+  ║  UKUBONA · HASSABIS CONVERGENCE PLUGIN                       ║
+  ║  Insert instructions:                                        ║
+  ║  1. Add the CSS block below into your existing <style> tag   ║
+  ║  2. Paste the <hr> + <div class="section"> block anywhere    ║
+  ║     before the final Synthesis section                       ║
+  ╚══════════════════════════════════════════════════════════════╝
+-->
+
+<!-- ─── ADD THIS INTO YOUR <style> BLOCK ─────────────────────── -->
+<style>
+.badge-src-nobel {
+  background: rgba(138, 43, 226, 0.12);
+  color: #b87aff;
+  border: 1px solid rgba(138, 43, 226, 0.25);
+}
+</style>
+<!-- ─── END CSS ADDITION ──────────────────────────────────────── -->
+
+
+<!-- ─── PASTE THIS BLOCK BEFORE THE FINAL SYNTHESIS SECTION ──── -->
+
+<hr class="divider">
+
+<div class="section" id="hassabis-convergence">
+  <div class="section-header">
+    <div class="source-badge badge-src-nobel">Nobel · DeepMind</div>
+    <div>
+      <div class="section-title">
+        Hassabis convergence: AlphaFold ↔ Digital Twin
+        <span class="sub">
+          Nobel Lecture, 8 Dec 2024 ·
+          <a href="https://www.nobelprize.org/uploads/2024/12/hassabis-lecture.pdf"
+             target="_blank"
+             style="color:var(--gold2);text-decoration:none;
+                    font-family:var(--mono);font-size:11px;letter-spacing:0.06em;">
+            nobelprize.org/uploads/2024/12/hassabis-lecture.pdf
+          </a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+
+    <p>The overlap is deeper than one phrase. Check all three of Hassabis's
+    criteria for an AI-suitable problem against the Ukubona architecture:</p>
+
+    <table class="pentad-table">
+      <thead>
+        <tr>
+          <th>Hassabis criterion</th>
+          <th>Ukubona mapping</th>
+          <th>Instantiation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Massive combinatorial search space</td>
+          <td>Ω — the interaction explosion</td>
+          <td>Biology fails at the coupling, not the variable.
+              Levinthal's Paradox (10³⁰⁰ protein conformations) and
+              the interaction explosion in a patient's physiological
+              state space are the same problem in different substrates.</td>
+        </tr>
+        <tr>
+          <td>Clear objective function</td>
+          <td>ε_FGT — journal as settlement</td>
+          <td>Every line Kevin logs is the loss function computing itself.
+              Hassabis needed CASP scores and atomic accuracy thresholds;
+              the Ukubona equivalent is the lived body reporting back —
+              "pain level 3" after Panadol Advance — forcing the ensemble
+              to recalculate.</td>
+        </tr>
+        <tr>
+          <td>Lots of data and/or an accurate simulator</td>
+          <td>State_t = ΣEvent_i via NDJSON</td>
+          <td>The log is the simulator. Append-only epistemology means
+              the twin accumulates its own training set in real time, the
+              way AlphaFold used PDB as a starting point then iterated.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Genome vs. Digital Twin — the same critique</h3>
+
+    <p>The genome-versus-digital-twin critique in the Ukubona document is
+    also the exact critique Hassabis makes of static structure determination.
+    The amino acid sequence is θ₀ — the initial condition printed at birth,
+    the baseline hardware map. What AlphaFold computes is the functional 3D
+    trajectory, determined by the energy landscape topology of that specific
+    protein in that specific environment. What the digital twin tracks is the
+    functional trajectory of that specific patient through her specific
+    physiological state space, shaped by decades of microvascular weathering
+    and the live dynamics of Vₐf.</p>
+
+    <h3>Hassabis's conjecture is the twin's wager</h3>
+
+    <blockquote>"Any pattern that can be generated or found in nature can be
+    efficiently discovered and modelled by a classical learning algorithm."
+    <br>— Demis Hassabis, Nobel Lecture 2024</blockquote>
+
+    <p>This is the exact bet the Ukubona system is making about the patient's
+    pain trajectory. The wager is that the interaction structure of her
+    allodynia, her Fazekas II disconnection, and her vasospastic functional
+    variance has a learnable topology. The NDJSON ground truth is how you
+    find it without enumerating the full state space.</p>
+
+    <h3>The cold-start problem — why the matriarch was lost</h3>
+
+    <p>What the matriarch case reveals, through this lens, is a
+    <strong>cold-start problem</strong>. AlphaFold's equivalent would be
+    trying to predict a protein fold with zero entries in PDB and no
+    evolutionary relatives. The twin was weakest precisely when she was
+    newest to it. The functional vascular term couldn't dominate the prior
+    because the prior hadn't been initialized with enough first-person data
+    to weight β₄·Vₐf appropriately. She ran out of events before the model
+    converged.</p>
+
+    <div class="flow-diagram">AlphaFold analog             Digital Twin analog
+───────────────────────────  ───────────────────────────
+Protein sequence  (θ₀)   ──► Patient genome / β₀
+PDB training set         ──► NDJSON event stream
+CASP benchmark score     ──► ε_FGT (journal settlement)
+Energy landscape         ──► SVV interaction topology (Ω)
+Levinthal explosion      ──► Combinatorial interaction explosion
+Cold-start (no PDB)      ──► Cold-start (no event history)
+                              → matriarch was lost here</div>
+
+    <p>The Ukubona system is, structurally, AlphaFold applied not to protein
+    conformational space but to individual human physiological state space.
+    The SVV axiom satisfies all three Hassabis criteria.
+    <strong>Hassabis would recognize it immediately.</strong></p>
+
+  </div>
+</div>
+
+<!-- ─── END PLUGIN ────────────────────────────────────────────── -->
+
 <hr class="divider">
 
 <!-- ═══════════════════════════════════════════════════════════ -->
